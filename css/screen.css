@@ -116,42 +116,39 @@ img, audio, video {
 /* ===== BASE STYLES ===== */
 
 html {
-  font-size: 1.375em; /* 22px */
-  line-height: 1.182em; /* 26px / ~ 120% */
-  padding: 1.182em; /* 26px / ~ 120% */
+  font-size: 1.375em;
+  line-height: 1.182em;
+  padding: 1.182em;
   text-rendering: optimizeLegibility;
-  font-family: "Jokerman", "Chiller", "Curlz MT";
+  font-family: "Jokerman", "Chiller", "Curlz MT", sans-serif;
+  background-color: #f8f8f8;
 }
 
-label {
-  display: block;
-}
-
-/* ===== LAYOUT STYLES ====== */
+/* ===== CONTAINER STYLES ===== */
 
 form {
   max-width: 400px;
-  margin: auto;
+  margin: 50px auto;
   padding: 20px;
+  background: #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
+
+/* ===== INPUT STYLES ===== */
 
 input, textarea {
   width: 100%;
   padding: 12px;
   margin: 10px 0;
   background: #eee;
+  border: 1px solid #ccc;
   border-radius: 5px;
   outline: none;
 }
 
-/* ===== STATE STYLES ======= */
-
-@media screen and (min-width: 500px) {
-	form {
-		width: 100%;
-		height: 100%;
-	}
-}
+/* ===== STATE STYLES ===== */
 
 input:focus, textarea:focus {
   background: #ddd;
