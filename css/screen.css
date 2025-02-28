@@ -125,21 +125,19 @@ html {
 }
 
 /* ===== CONTAINER STYLES ===== */
-
 form {
   max-width: 400px;
   margin: 50px auto;
   padding: 20px;
-  background: #ddd;
+  background: #333;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
 
 /* ===== INPUT STYLES ===== */
-
 input, textarea {
-  width: 100%;
+  width: calc(100% - 24px);
   padding: 12px;
   margin: 10px 0;
   background: #eee;
